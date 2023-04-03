@@ -1,0 +1,166 @@
+[T 05:22:36 19599] CodeQL CLI version 2.12.5
+[T 05:22:36 19599] Initializing tracer.
+[T 05:22:36 19599] Initialising tags...
+[T 05:22:36 19599] ID set to 0000000000004C8F_0000000000000001 (parent root)
+[T 05:22:36 19599] Initializing tracer.
+[T 05:22:36 19599] Initialising tags...
+[T 05:22:36 19599] ID set to 0000000000004C8F_0000000000000002 (parent root)
+[T 05:22:36 19599] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 05:22:36 19599] ==== Candidate to intercept: /Users/seckeep/codeql/tools/osx64/runner-osx (canonical: /Users/seckeep/codeql/tools/osx64/runner-osx) ====
+[T 05:22:36 19599] Lua: === Intercepted call to /users/seckeep/codeql/tools/osx64/runner-osx ===
+[T 05:22:36 19599] Executing the following tracer actions:
+[T 05:22:36 19599] Tracer actions:
+[T 05:22:36 19599] pre_invocations(0)
+[T 05:22:36 19599] post_invocations(0)
+[T 05:22:36 19599] trace_languages(1): [java]
+[T 05:22:36 19600] Attempting to switch stdout/stderr to 3...
+/Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/bin/bash.semmle.00004C8F.1A194A28.slice.x86_64: replacing existing signature
+[T 05:22:37 19599] Initializing tracer.
+[T 05:22:37 19599] Initialising tags...
+[T 05:22:37 19599] ID set to 0000000000004C8F_0000000000000003 (parent 0000000000004C8F_0000000000000002)
+[T 05:22:37 19599] ==== Candidate to intercept: /Users/seckeep/codeql/java/tools/autobuild.sh (canonical: /Users/seckeep/codeql/java/tools/autobuild.sh) ====
+[T 05:22:37 19599] Lua: === Intercepted call to /users/seckeep/codeql/java/tools/autobuild.sh ===
+[T 05:22:37 19599] Executing the following tracer actions:
+[T 05:22:37 19599] Tracer actions:
+[T 05:22:37 19599] pre_invocations(0)
+[T 05:22:37 19599] post_invocations(0)
+[T 05:22:37 19599] trace_languages(1): [java]
+[T 05:22:37 19605] Attempting to switch stdout/stderr to 3...
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/Users/seckeep/codeql/tools/osx64/java/bin/java.semmle.00004C94.0604B1F8.slice.x86_64
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/Users/seckeep/codeql/tools/osx64/java/bin/java.semmle.00004C94.0604B1F8.slice.x86_64
+/Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/Users/seckeep/codeql/tools/osx64/java/bin/java.semmle.00004C94.0604B1F8.slice.x86_64: replacing existing signature
+[T 05:22:37 19604] Initializing tracer.
+[T 05:22:37 19604] Initialising tags...
+[T 05:22:37 19604] ID set to 0000000000004C94_0000000000000001 (parent 0000000000004C8F_0000000000000003)
+[T 05:22:37 19604] ==== Candidate to intercept: /Users/seckeep/codeql/tools/osx64/java/bin/java (canonical: /Users/seckeep/codeql/tools/osx64/java/bin/java) ====
+[T 05:22:37 19604] Lua: === Intercepted call to /users/seckeep/codeql/tools/osx64/java/bin/java ===
+[T 05:22:37 19604] Executing the following tracer actions:
+[T 05:22:37 19604] Tracer actions:
+[T 05:22:37 19604] pre_invocations(0)
+[T 05:22:37 19604] post_invocations(0)
+[T 05:22:37 19604] trace_languages(1): [java]
+[T 05:22:37 19604] Passing through -javaagent:/Users/seckeep/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 05:22:37 19604] Passing through -Xbootclasspath/a:/Users/seckeep/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 05:22:37 19604] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/seckeep/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/seckeep/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 05:22:38 19616] Attempting to switch stdout/stderr to 21...
+/Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/Users/seckeep/codeql/tools/osx64/java/lib/jspawnhelper.semmle.00004C94.1D3DC760.slice.x86_64: replacing existing signature
+[T 05:22:38 19621] Initializing tracer.
+[T 05:22:38 19621] Initialising tags...
+[T 05:22:38 19621] ID set to 0000000000004CA5_0000000000000001 (parent 0000000000004C94_0000000000000001)
+[T 05:22:38 19621] ==== Candidate to intercept: /Users/seckeep/codeql/tools/osx64/java/lib/jspawnhelper (canonical: /Users/seckeep/codeql/tools/osx64/java/lib/jspawnhelper) ====
+[T 05:22:38 19621] Lua: === Intercepted call to /users/seckeep/codeql/tools/osx64/java/lib/jspawnhelper ===
+[T 05:22:38 19621] Executing the following tracer actions:
+[T 05:22:38 19621] Tracer actions:
+[T 05:22:38 19621] pre_invocations(0)
+[T 05:22:38 19621] post_invocations(0)
+[T 05:22:38 19621] trace_languages(1): [java]
+[T 05:22:38 19621] Initializing tracer.
+[T 05:22:38 19621] Initialising tags...
+[T 05:22:38 19621] ID set to 0000000000004CA5_0000000000000002 (parent 0000000000004CA5_0000000000000001)
+[T 05:22:38 19621] ==== Candidate to intercept: /usr/local/bin/mvn (canonical: /usr/local/Cellar/maven/3.8.5/bin/mvn) ====
+[T 05:22:38 19621] Lua: === Intercepted call to /usr/local/cellar/maven/3.8.5/bin/mvn ===
+[T 05:22:38 19621] Executing the following tracer actions:
+[T 05:22:38 19621] Tracer actions:
+[T 05:22:38 19621] pre_invocations(0)
+[T 05:22:38 19621] post_invocations(0)
+[T 05:22:38 19621] trace_languages(1): [java]
+[T 05:22:38 19622] Attempting to switch stdout/stderr to 3...
+/Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/bin/sh.semmle.00004CA5.388F5308.slice.x86_64: replacing existing signature
+[T 05:22:39 19621] Initializing tracer.
+[T 05:22:39 19621] Initialising tags...
+[T 05:22:39 19621] ID set to 0000000000004CA5_0000000000000003 (parent 0000000000004CA5_0000000000000002)
+[T 05:22:39 19621] ==== Candidate to intercept: /usr/local/Cellar/maven/3.8.5/libexec/bin/mvn (canonical: /usr/local/Cellar/maven/3.8.5/libexec/bin/mvn) ====
+[T 05:22:39 19621] Lua: === Intercepted call to /usr/local/cellar/maven/3.8.5/libexec/bin/mvn ===
+[T 05:22:39 19621] Executing the following tracer actions:
+[T 05:22:39 19621] Tracer actions:
+[T 05:22:39 19621] pre_invocations(0)
+[T 05:22:39 19621] post_invocations(0)
+[T 05:22:39 19621] trace_languages(1): [java]
+[T 05:22:39 19621] Initializing tracer.
+[T 05:22:39 19621] Initialising tags...
+[T 05:22:39 19621] ID set to 0000000000004CA5_0000000000000004 (parent 0000000000004CA5_0000000000000003)
+[T 05:22:39 19621] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 05:22:39 19621] Lua: === Intercepted call to /bin/bash ===
+[T 05:22:39 19621] Executing the following tracer actions:
+[T 05:22:39 19621] Tracer actions:
+[T 05:22:39 19621] pre_invocations(0)
+[T 05:22:39 19621] post_invocations(0)
+[T 05:22:39 19621] trace_languages(1): [java]
+[T 05:22:39 19627] Attempting to switch stdout/stderr to 3...
+/Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/usr/bin/uname.semmle.00004CAA.199F3FF8.slice.x86_64: replacing existing signature
+[T 05:22:39 19626] Initializing tracer.
+[T 05:22:39 19626] Initialising tags...
+[T 05:22:39 19626] ID set to 0000000000004CAA_0000000000000001 (parent 0000000000004CA5_0000000000000004)
+[T 05:22:39 19626] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 05:22:39 19626] Lua: === Intercepted call to /usr/bin/uname ===
+[T 05:22:39 19626] Executing the following tracer actions:
+[T 05:22:39 19626] Tracer actions:
+[T 05:22:39 19626] pre_invocations(0)
+[T 05:22:39 19626] post_invocations(0)
+[T 05:22:39 19626] trace_languages(1): [java]
+[T 05:22:39 19634] Attempting to switch stdout/stderr to 3...
+/Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/usr/bin/dirname.semmle.00004CB1.31368A90.slice.x86_64: replacing existing signature
+[T 05:22:40 19633] Initializing tracer.
+[T 05:22:40 19633] Initialising tags...
+[T 05:22:40 19633] ID set to 0000000000004CB1_0000000000000001 (parent 0000000000004CA5_0000000000000004)
+[T 05:22:40 19633] ==== Candidate to intercept: /usr/bin/dirname (canonical: /usr/bin/dirname) ====
+[T 05:22:40 19633] Lua: === Intercepted call to /usr/bin/dirname ===
+[T 05:22:40 19633] Executing the following tracer actions:
+[T 05:22:40 19633] Tracer actions:
+[T 05:22:40 19633] pre_invocations(0)
+[T 05:22:40 19633] post_invocations(0)
+[T 05:22:40 19633] trace_languages(1): [java]
+[T 05:22:40 19646] Initializing tracer.
+[T 05:22:40 19646] Initialising tags...
+[T 05:22:40 19646] ID set to 0000000000004CBE_0000000000000001 (parent 0000000000004CA5_0000000000000004)
+[T 05:22:40 19646] ==== Candidate to intercept: /usr/bin/dirname (canonical: /usr/bin/dirname) ====
+[T 05:22:40 19646] Lua: === Intercepted call to /usr/bin/dirname ===
+[T 05:22:40 19646] Executing the following tracer actions:
+[T 05:22:40 19646] Tracer actions:
+[T 05:22:40 19646] pre_invocations(0)
+[T 05:22:40 19646] post_invocations(0)
+[T 05:22:40 19646] trace_languages(1): [java]
+[T 05:22:40 19653] Attempting to switch stdout/stderr to 3...
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin/java.semmle.00004CA5.1021CE78.slice.x86_64
+/Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin/java.semmle.00004CA5.1021CE78.slice.x86_64: replacing existing signature
+[T 05:22:40 19621] Initializing tracer.
+[T 05:22:40 19621] Initialising tags...
+[T 05:22:40 19621] ID set to 0000000000004CA5_0000000000000005 (parent 0000000000004CA5_0000000000000004)
+[T 05:22:40 19621] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin/java) ====
+[T 05:22:40 19621] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_221.jdk/contents/home/bin/java ===
+[T 05:22:40 19621] Executing the following tracer actions:
+[T 05:22:40 19621] Tracer actions:
+[T 05:22:40 19621] pre_invocations(0)
+[T 05:22:40 19621] post_invocations(0)
+[T 05:22:40 19621] trace_languages(1): [java]
+[T 05:22:40 19621] Passing through -javaagent:/Users/seckeep/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 05:22:40 19621] Passing through -Xbootclasspath/a:/Users/seckeep/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 05:22:41 19621] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/seckeep/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/seckeep/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 05:22:46 19664] Attempting to switch stdout/stderr to 92...
+[T 05:22:46 19668] Initializing tracer.
+[T 05:22:46 19668] Initialising tags...
+[T 05:22:46 19668] ID set to 0000000000004CD4_0000000000000001 (parent 0000000000004CA5_0000000000000005)
+[T 05:22:46 19668] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 05:22:46 19668] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_221.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 05:22:46 19668] Executing the following tracer actions:
+[T 05:22:46 19668] Tracer actions:
+[T 05:22:46 19668] pre_invocations(0)
+[T 05:22:46 19668] post_invocations(0)
+[T 05:22:46 19668] trace_languages(1): [java]
+[T 05:22:46 19669] Attempting to switch stdout/stderr to 4...
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/Users/seckeep/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00004CD4.299E9A20.slice.x86_64
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/Users/seckeep/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00004CD4.299E9A20.slice.x86_64
+/Users/seckeep/PycharmProjects/JavaAudit/database/lowsec/working/copy-root/000001F5/Users/seckeep/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00004CD4.299E9A20.slice.x86_64: replacing existing signature
+[T 05:22:47 19668] Initializing tracer.
+[T 05:22:47 19668] Initialising tags...
+[T 05:22:47 19668] ID set to 0000000000004CD4_0000000000000002 (parent 0000000000004CD4_0000000000000001)
+[T 05:22:47 19668] ==== Candidate to intercept: /Users/seckeep/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/seckeep/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 05:22:47 19668] Lua: === Intercepted call to /users/seckeep/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 05:22:47 19668] Executing the following tracer actions:
+[T 05:22:47 19668] Tracer actions:
+[T 05:22:47 19668] pre_invocations(0)
+[T 05:22:47 19668] post_invocations(0)
+[T 05:22:47 19668] trace_languages(1): [java]
+[T 05:22:47 19668] Passing through -javaagent:/Users/seckeep/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 05:22:47 19668] Passing through -Xbootclasspath/a:/Users/seckeep/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 05:22:47 19668] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/seckeep/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/seckeep/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
